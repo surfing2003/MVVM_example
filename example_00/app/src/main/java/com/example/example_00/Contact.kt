@@ -11,5 +11,5 @@ data class Contact(
     @ColumnInfo(name = "number") var number: String,
     @ColumnInfo(name = "initial") var initial: Char
 ) {
-    constructor() : this(null,"","","\u0000")
+    constructor() : this(null,"","",'\u0000')
 }
